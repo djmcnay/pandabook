@@ -16,6 +16,6 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 But seeing as you are here...
 
-
+[![Cute Red Pandas](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=GnaSNsk-M0c)
 
 ... have a happy panda
