@@ -46,7 +46,7 @@
 - title: Cross-Asset
   url: /features/placeholder
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Correlations
     url: /features/placeholder
@@ -55,7 +55,7 @@
 - title: Macro
   url: /features/placeholder
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Leading Indicators
     url: /features/placeholder
@@ -64,7 +64,7 @@
 - title: Fixed Income
   url: /features/placeholder
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Pokemon
     url: /features/placeholder
@@ -73,7 +73,7 @@
 - title: FX
   url: /features/placeholder
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Spot
     url: /features/placeholder
@@ -82,7 +82,7 @@
 - title: Commodities
   url: /features/placeholder
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Term Structure
     url: /features/placeholder
@@ -91,7 +91,7 @@
 - title: Notebooks
   url: /features/features
   not_numbered: true
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Pokemon Fair Value
     url: /features/pokemon_primer

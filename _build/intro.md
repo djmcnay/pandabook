@@ -14,7 +14,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## About Me
 
-![Linkedin Button](images/logo/in-Blue-128.png)
+![Linkedin Button](images/logo/In-Blue-128.png)
 
 ## Existential Crisis
 
