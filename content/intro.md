@@ -4,7 +4,7 @@
 
 ## About Me
 
-![Linkedin Button](images/logo/In-Blue-128.png)
+![Linkedin Button](images/logo/In-Blue-128.png =250x)
 
 ## Existential Crisis
 
