@@ -4,8 +4,7 @@
 
 ## About Me
 
-[![](cool.jpg)](https://www.linkedin.com/in/david-mcnay-9b582136/?originalSubdomain=uk)
-
+![](./ln-Blue-128.png)
 
 ## Existential Crisis
 
