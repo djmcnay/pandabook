@@ -16,11 +16,11 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
+title: Pontificating Panda
+author: David J McNay
+email: djmcnay@gmail.com
 description: >-
-  This is an example book built with Jupyter Books.
+    Originally designed as a static chartbook
 
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
@@ -37,8 +37,7 @@ show_sidebar: true                # Show the sidebar. Only set to false if your 
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
 textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar
 textbook_logo_link: https://jupyter.org/jupyter-book/                    # A link for the logo.
-sidebar_footer_text: Powered by <a href="https://github.com/jupyter/jupyter-book">Jupyter
-  Book</a>
+sidebar_footer_text: Powered by <a href="https://github.com/jupyter/jupyter-book">Jupyter Book</a>
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
 # Search settings
@@ -65,7 +64,7 @@ binder_repo_branch: gh-pages                   # The branch on which your textbo
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
 # Thebelab settings
-use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
+use_thebelab_button: false                # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text: Thebelab                 # The text to display inside the Thebelab initialization button
 codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
