@@ -33,12 +33,12 @@ url: YOUR URL              # the base hostname & protocol for your site, e.g. ht
 use_hide_code_button: true        # If True, a small button appears to the right of each cell that lets you hide its contents.
 
 # Sidebar settings
-show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
-collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
-textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar
+show_sidebar: true                    # Show the sidebar. Only set to false if your only wish to host a single page.
+collapse_inactive_chapters: true      # Whether to collapse the inactive chapters in the sidebar
+textbook_logo: images/logo/geometric_panda_1.png               # A logo to be displayed at the top of your textbook sidebar
 textbook_logo_link: https://jupyter.org/jupyter-book/                    # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://github.com/jupyter/jupyter-book">Jupyter Book</a>
-number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
+number_toc_chapters: true        # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
 # Search settings
 search_max_words_in_content: 100   # In the search function, use at most this many words (too many words will make search slow)
@@ -93,10 +93,10 @@ google_analytics:
 # Jupyter book settings you probably don't need to change
 
 content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
-images_url: /assets/images                   # Path to static image files
-css_url: /assets/css                      # Path to static CSS files
-js_url: /assets/js                       # Path to JS files
-custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
+images_url: /assets/images             # Path to static image files
+css_url: /assets/css                   # Path to static CSS files
+js_url: /assets/js                     # Path to JS files
+custom_static_url: /assets/custom      # Path to user's custom CSS/JS files
 
 
 #######################################################################################
