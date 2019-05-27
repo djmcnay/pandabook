@@ -44,12 +44,48 @@
 
 # A chapter w/ a collection of sections beneath it
 - title: Cross-Asset
-  url: /features/features
+  url: /features/placeholder
   not_numbered: true
   expand_sections: true
   sections:
-  - title: Markdown files
-    url: /features/markdown
+  - title: Correlations
+    url: /features/placeholder
+    not_numbered: true
+    
+- title: Macro
+  url: /features/placeholder
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Leading Indicators
+    url: /features/placeholder
+    not_numbered: true
+    
+- title: Fixed Income
+  url: /features/placeholder
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Pokemon
+    url: /features/placeholder
+    not_numbered: true
+    
+- title: FX
+  url: /features/placeholder
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Spot
+    url: /features/placeholder
+    not_numbered: true
+    
+- title: Commodities
+  url: /features/placeholder
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Term Structure
+    url: /features/placeholder
     not_numbered: true
     
 - title: Notebooks
@@ -57,6 +93,6 @@
   not_numbered: true
   expand_sections: true
   sections:
-  - title: Markdown files
-    url: /features/markdown
+  - title: Pokemon Fair Value
+    url: /features/pokemon_primer
     not_numbered: true

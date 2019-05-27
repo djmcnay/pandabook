@@ -4,54 +4,75 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: https://github.com/jupyter/jupyter-book
+  url: https://github.com/djmcnay/pandabook
   title: 'GitHub repository'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
-# Books with Jupyter and Jekyll
+# Pontificating Panda Chartbook
 
 <img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
 
-Jupyter Books lets you build an online book using a collection of Jupyter Notebooks
-and Markdown files. Its output is similar to the excellent [Bookdown](https://bookdown.org/yihui/bookdown/) tool,
-and adds extra functionality for people running a Jupyter stack.
+## About Me
 
-For an example of a book built with Jupyter Books, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
+https://www.linkedin.com/in/david-mcnay-9b582136/?originalSubdomain=uk
 
-Here are a few features of Jupyter Books
 
-* All course content is written in markdown and Jupyter Notebooks, stored in `notebooks/`
-* The Jupyter Book repo comes packaged with helper scripts to convert these into Jekyll pages (in `scripts/`) that can be hosted for free on GitHub
-* Pages can have [Binder](https://mybinder.org) or JupyterHub links automatically added for interactivity.
-* The website itself is based on Jekyll, and is highly extensible and can be freely-hosted on GitHub.
-* There are lots of nifty HTML features under-the-hood, such as Turbolinks fast-navigation and
-  click-to-copy in code cells.
 
-## Getting started
+## Existential Crisis
 
-To get started, you may be interested in the following links.
-Here are a few links of interest:
+In 2018 I took the decision to abandon Matlab as a coding language and learn to code in Python. What was required was a real world, practical project to work on and the Pontificating Panda Chartbook was born. The objective was to develop a cross-asset financial chartbook using Open Source tools and data.
 
-* **[Quickstart](features/features)** is a quick demo and overview of Jupyter Books.
+Fair warning to anyone here - DON'T TRUST ANYTHING HERE
 
-* **[The Jupyter Book Guide](guide/01_overview)**
-  will step you through the process of configuring and building your own Jupyter Book.
 
-* **[The Jupyter Book template repo](https://github.com/jupyter/jupyter-book)** is the template
-  repository you'll use as a start for your Jupyter Book.
+## Build Plan
+What you can see here is very much a **work in progress**. The list below is a running list of additions I would like to make to the book in the coming few weeks and months - it isn't a comprehensive list of everything I'd like to add, more things I will (hopefully) have time to do.
 
-* **A demo of the Jupyter Book** can be browsed via the sidebar to the left.
+#### Static Data
+* More detailed "About Me" section
+* Updated CV page with links
+* World Selection fund information
+* Bibliography - Journal articles from SSRN etc...
 
-## Installation
+#### Data Dump
+* Pull TS OHLC Data from Alpha Vantage for US listed ETFs and store as pickle
+* Pull Pokemon data and store as pickle
 
-Here's a brief rundown of how to create your own Jupyter Book using this site. For a more
-complete guide, see [the Jupyter Book guide](guide/01_overview).
+#### Static Chartbook
+Cross-Asset
+* Prinipal Drivers Index
+* Correlations Dendrogram
 
-* Fork the Jupyter Book template repo
-* Replace the demo notebooks in `content/` with your own notebooks and markdown files.
-* Create a Table of Contents yaml file by editing `_data/toc.yaml`.
-* Generate the Jekyll markdown for your notebooks by running `scripts/generate_book.py`
-* Push your changes to GitHub (or wherever you host your site)!
+Fixed Income
+* Pokemon model
+
+Eco
+* OECD CLIs & Swirlygrams
+
+FX
+* Spot price returns
+* REER
+
+Commodities
+* Key charts for Oil, Precious Metals, Industrial Metals, Soft Commodities(?)
+* Curve Term structure
+
+#### Notebooks
+* Pokemon Model
+* Principal Drivers Index & Correlation Dendrogram
+
+#### BadgerPM
+* Repackage homemade dependencies and publish to github
+
+#### Binder
+* create binder folder to allow people to play with Jupyter Notebooks (with callbacks etc...)
+
+#### Plotly Dash
+Ultimately replace this entire book with a Dash App (or Flask website)
+But more short term:
+* Publish Python only Re-sampled Optimiser
+* Publish work on Income Optimisation
+
 
 ## Acknowledgements
 
