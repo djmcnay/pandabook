@@ -14,7 +14,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## About Me
 
-![Linkedin Button](images/logo/In-Blue-128.png =250x)
+[![Linkedin Button](images/logo/In-Blue-128.png =250x)](https://www.linkedin.com/in/david-mcnay-9b582136/)
 
 ## Existential Crisis
 
