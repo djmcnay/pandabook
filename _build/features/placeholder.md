@@ -63,3 +63,5 @@ plotly_html_hack('https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokem
 </div>
 </div>
 </div>
+
+## BADGERS
