@@ -25,21 +25,19 @@ But seeing as you are here...
 ```python
 from IPython.display import display, HTML
 
-def plotly_html_hack(chartlink):
-    html_template = """ 
-        <html>
-            <head>
-              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-              <style>body{margin:0 100}</style>
-            </head>
-            <body>
-                <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
-            </body>
-        </html>"""
-    display(HTML(html_template))
-    
-plotly_html_hack('https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html')
+
+html_template = """ 
+    <html>
+        <head>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+            <style>body{margin:0 100}</style>
+        </head>
+        <body>
+            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+        </body>
+    </html>"""
+display(HTML(html_template))
 ```
 </div>
 
@@ -48,20 +46,20 @@ plotly_html_hack('https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokem
 
 <div markdown="0" class="output output_html">
  
-        <html>
-            <head>
-              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-              <style>body{margin:0 100}</style>
-            </head>
-            <body>
-                <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
-            </body>
-        </html>
+    <html>
+        <head>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+            <style>body{margin:0 100}</style>
+        </head>
+        <body>
+            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+        </body>
+    </html>
 </div>
 
 </div>
 </div>
 </div>
 
-## BADGERS
+## BADGERS 2
