@@ -36,26 +36,28 @@ html_template = """
             <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html"></object>
         </body>
     </html>"""
-display(HTML(html_template))
+HTML(html_template)
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
 
+
+
 <div markdown="0" class="output output_html">
  
     <html>
         <head>
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
             <style>body{margin:0 100}</style>
         </head>
         <body>
-            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html"></object>
         </body>
     </html>
 </div>
+
 
 </div>
 </div>
