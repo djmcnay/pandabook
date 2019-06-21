@@ -12,6 +12,15 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+from IPython.display import display, HTML
+```
+</div>
+
+</div>
+
 # Placeholder Page
 
 But seeing as you are here...
@@ -23,44 +32,77 @@ But seeing as you are here...
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-from IPython.display import display, HTML
+%%html
 
-
-html_template = """ 
-    <html>
-        <head>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-            <style>body{margin:0 100}</style>
-        </head>
-        <body>
-            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html"></object>
-        </body>
-    </html>"""
-HTML(html_template)
+<html>
+    <head>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <style>body{margin:0 100}</style>
+    </head>
+    <body>
+        <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+    </body>
+</html>
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
 
+<div markdown="0" class="output output_html">
 
+<html>
+    <head>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <style>body{margin:0 100}</style>
+    </head>
+    <body>
+        <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+    </body>
+</html>
+</div>
+
+</div>
+</div>
+</div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+%%html
+
+<html>
+    <head>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <object 
+        data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html" 
+        width="1000" height="600">
+        </object>
+    </body>
+</html>
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
 
 <div markdown="0" class="output output_html">
- 
-    <html>
-        <head>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-            <style>body{margin:0 100}</style>
-        </head>
-        <body>
-            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html"></object>
-        </body>
-    </html>
+
+<html>
+    <head>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <object 
+        data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html" 
+        width="1000" height="600">
+        </object>
+    </body>
+</html>
 </div>
 
-
 </div>
 </div>
 </div>
-
-## BADGERS 3 - trying with full js
