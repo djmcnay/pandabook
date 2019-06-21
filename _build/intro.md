@@ -26,17 +26,17 @@ Fair warning to anyone here - DON'T TRUST ANYTHING HERE
 ## Build Plan
 What you can see here is very much a **work in progress**. The list below is a running list of additions I would like to make to the book in the coming few weeks and months - it isn't a comprehensive list of everything I'd like to add, more things I will (hopefully) have time to do.
 
-#### Static Data
+### Static Data
 * More detailed "About Me" section
 * Updated CV page with links
 * World Selection fund information
 * Bibliography - Journal articles from SSRN etc...
 
-#### Data Dump
+### Data Dump
 * Pull TS OHLC Data from Alpha Vantage for US listed ETFs and store as pickle
 * Pull Pokemon data and store as pickle
 
-#### Static Chartbook
+### Static Chartbook
 Cross-Asset
 * Prinipal Drivers Index
 * Correlations Dendrogram
@@ -55,17 +55,17 @@ Commodities
 * Key charts for Oil, Precious Metals, Industrial Metals, Soft Commodities(?)
 * Curve Term structure
 
-#### Notebooks
+### Notebooks
 * Pokemon Model
 * Principal Drivers Index & Correlation Dendrogram
 
-#### BadgerPM
+### BadgerPM
 * Repackage homemade dependencies and publish to github
 
-#### Binder
+### Binder
 * create binder folder to allow people to play with Jupyter Notebooks (with callbacks etc...)
 
-#### Plotly Dash
+### Plotly Dash
 Ultimately replace this entire book with a Dash App (or Flask website)
 But more short term:
 * Publish Python only Re-sampled Optimiser
