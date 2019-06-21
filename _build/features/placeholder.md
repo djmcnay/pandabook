@@ -29,12 +29,11 @@ from IPython.display import display, HTML
 html_template = """ 
     <html>
         <head>
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
             <style>body{margin:0 100}</style>
         </head>
         <body>
-            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+            <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTML/pokemon.html"></object>
         </body>
     </html>"""
 display(HTML(html_template))
@@ -62,4 +61,4 @@ display(HTML(html_template))
 </div>
 </div>
 
-## BADGERS 2
+## BADGERS 3 - trying with full js
