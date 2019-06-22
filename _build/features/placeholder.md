@@ -106,3 +106,56 @@ But seeing as you are here...
 </div>
 </div>
 </div>
+
+## TEST of In-Situ Download
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+# POKEMON
+from hongxiongmao import pokemon
+import plotly.offline as py
+
+p = pokemon.pokemon_go()
+p.download_and_run()
+p.plotlyplot()
+aPlot = py.plot(p.plot, filename='test_delete.html', auto_open=False, include_plotlyjs=False)
+
+def plotly_html_hack(plot):
+    html_template = """ 
+        <html>
+            <head>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+              <style>body{margin:0 100}</style>
+            </head>
+            <body>
+            """ + plot + """
+            </body>
+        </html>"""
+    display(HTML(html_template))
+    
+plotly_html_hack(aPlot)
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+ 
+        <html>
+            <head>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+              <style>body{margin:0 100}</style>
+            </head>
+            <body>
+            test_delete.html
+            </body>
+        </html>
+</div>
+
+</div>
+</div>
+</div>
