@@ -78,22 +78,19 @@ But seeing as you are here...
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-{"tags": ["hide_input",]}
+# NO CODE
 
 # This should be hidden
+print('Monkey Face')
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
-
-
-{:.output_data_text}
+{:.output_stream}
 ```
-{'tags': ['hide_input']}
+Monkey Face
 ```
-
-
 </div>
 </div>
 </div>
