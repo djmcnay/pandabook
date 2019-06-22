@@ -35,8 +35,7 @@ But seeing as you are here...
 <div class="input_area" markdown="1">
 ```python
 %%html
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"
-        width="900" height="500"></object>
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
 ```
 </div>
 
@@ -44,32 +43,35 @@ But seeing as you are here...
 <div class="output_subarea" markdown="1">
 
 <div markdown="0" class="output output_html">
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"
-        width="900" height="500"></object>
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
 </div>
 
 </div>
 </div>
 </div>
 
-## No Height/Width
+### Within IPython which should in theory make the cell hideable
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-
-
-%%html
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+HTML('''
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
+''')
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
+
+
 
 <div markdown="0" class="output output_html">
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html"></object>
+
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
+
 </div>
+
 
 </div>
 </div>
@@ -78,19 +80,44 @@ But seeing as you are here...
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-# NO CODE
-
-# This should be hidden
-print('Monkey Face')
+HTML('''<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Monkey Face
-```
+
+
+
+<div markdown="0" class="output output_html">
+<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>
+</div>
+
+
 </div>
 </div>
 </div>
