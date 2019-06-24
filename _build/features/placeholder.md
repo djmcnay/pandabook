@@ -15,9 +15,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+# 
 from IPython.display import display, HTML
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
 ```
 </div>
 
@@ -35,7 +35,9 @@ But seeing as you are here...
 <div class="input_area" markdown="1">
 ```python
 %%html
+<div align="left">
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
+</div>
 ```
 </div>
 
@@ -43,20 +45,22 @@ But seeing as you are here...
 <div class="output_subarea" markdown="1">
 
 <div markdown="0" class="output output_html">
+<div align="left">
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
 </div>
-
-</div>
-</div>
 </div>
 
-### Within IPython which should in theory make the cell hideable
+</div>
+</div>
+</div>
+
+### Within IPython Trying to Hide Code Cell
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-HTML('''
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
+# HIDE CODE
+HTML('''<object data='''"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
 ''')
 ```
 </div>
@@ -80,19 +84,10 @@ HTML('''
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-HTML('''<script>
-code_show=true; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
-<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
+# Lambda function for HTML Object tag to embed another HTML file
+htmlobj = lambda l, w=800, h=200: HTML(str('<object data=\"https://djmcnay.github.io/pandachartstore/'+l
+                                  +'\" width=\"'+str(w)+'\" height=\"'+str(h)+'\"</object>'))
+htmlobj('PlotlyHTMLexJS/pokemon.html')
 ```
 </div>
 
@@ -102,22 +97,28 @@ $( document ).ready(code_toggle);
 
 
 <div markdown="0" class="output output_html">
-<script>
-code_show=true; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
-<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="200"</object>
 </div>
 
 
+</div>
+</div>
+</div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+# HIDE CODE
+print('Code Should be Hidden')
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Code Should be Hidden
+```
 </div>
 </div>
 </div>
