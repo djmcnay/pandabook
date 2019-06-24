@@ -107,7 +107,6 @@ htmlobj('PlotlyHTMLexJS/pokemon.html')
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-# HIDE CODE
 print('Code Should be Hidden')
 ```
 </div>
@@ -125,7 +124,6 @@ Code Should be Hidden
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-
 print('Please hide this code')
 ```
 </div>
@@ -143,7 +141,6 @@ Please hide this code
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-
 print('This is really annoying')
 ```
 </div>
