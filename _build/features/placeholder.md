@@ -122,3 +122,39 @@ Code Should be Hidden
 </div>
 </div>
 </div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+{
+    "tags": [
+        "hide_input",
+    ]
+}
+print('Code Should be Hidden')
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Code Should be Hidden
+```
+</div>
+</div>
+</div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+{
+    "tags": [
+        "HIDE CODE",
+    ]
+}
+print('Code Should be Hidden')
+```
+</div>
+
+</div>
