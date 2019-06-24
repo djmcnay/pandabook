@@ -144,8 +144,16 @@ Please hide this code
 <div class="input_area" markdown="1">
 ```python
 
-print('Code Should be Hidden')
+print('This is really annoying')
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+This is really annoying
+```
+</div>
+</div>
 </div>
