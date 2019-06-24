@@ -15,7 +15,6 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-# 
 from IPython.display import display, HTML
 from urllib.request import urlopen
 ```
@@ -126,12 +125,8 @@ Code Should be Hidden
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-{{
-    "tags": [
-        "hide_input",
-    ]
-}}
-print('Code Should be Hidden')
+
+print('Please hide this code')
 ```
 </div>
 
@@ -139,7 +134,7 @@ print('Code Should be Hidden')
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-Code Should be Hidden
+Please hide this code
 ```
 </div>
 </div>
@@ -148,29 +143,9 @@ Code Should be Hidden
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-{{"tags": ["HIDE CODE",]}}
+
 print('Code Should be Hidden')
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_traceback_line}
-```
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-88-f0c40c234b5d> in <module>()
-    ----> 1 {{"tags": ["HIDE CODE",]}}
-          2 print('Code Should be Hidden')
-
-
-    TypeError: unhashable type: 'dict'
-
-
-```
-</div>
-</div>
 </div>
