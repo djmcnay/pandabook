@@ -122,9 +122,9 @@ Code Should be Hidden
 </div>
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
+<div class="input_area hidecode" markdown="1">
 ```python
-print('Please hide this code')
+print('trying hydecode')
 ```
 </div>
 
@@ -132,7 +132,7 @@ print('Please hide this code')
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-Please hide this code
+trying hydecode
 ```
 </div>
 </div>
