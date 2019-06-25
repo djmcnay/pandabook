@@ -105,3 +105,28 @@ HTML('''<object data=\"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/
 </div>
 </div>
 </div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area hidecode" markdown="1">
+```python
+%%html
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
+        width="600"
+        height="200">
+</object>
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
+        width="600"
+        height="200">
+</object>
+</div>
+
+</div>
+</div>
+</div>
