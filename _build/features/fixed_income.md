@@ -22,10 +22,10 @@ from IPython.display import display, HTML
 
 # Lambda function for HTML Object tag to embed another HTML file
 gitchartstore = 'https://djmcnay.github.io/pandachartstore/'
-htmlobj = lambda l, w=600, h=200: HTML('<object data=\"'+gitchartstore+l
+htmlobj = lambda l, w=600, h=200: HTML(str('<object data=\"'+gitchartstore+l
                                            +'\" width=\"'+str(w)
                                            +'\" height=\"'+str(h)
-                                           +'\"</object>')
+                                           +'\"</object>'))
 ```
 </div>
 
@@ -46,6 +46,7 @@ $ FV_{x} = \beta_{x,0}
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
+# with Lambda
 display(htmlobj('PlotlyHTMLexJS/pokemon.html'))
 ```
 </div>
@@ -64,6 +65,7 @@ display(htmlobj('PlotlyHTMLexJS/pokemon.html'))
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
+# html split out
 l='PlotlyHTMLexJS/pokemon.html'
 HTML('<object data=\"'+gitchartstore+l+'\" width=\"'+str(600)+'\" height=\"'+str(200)+'\"</object>')
 ```
@@ -86,7 +88,33 @@ HTML('<object data=\"'+gitchartstore+l+'\" width=\"'+str(600)+'\" height=\"'+str
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
-HTML('''<object data=\"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html\" width=\"600\" height=\"200\"</object>''')
+%%html
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
+        width="750"
+        height="500">
+</object>
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
+        width="750"
+        height="500">
+</object>
+</div>
+
+</div>
+</div>
+</div>
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+# html no tag
+HTML('''<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>''')
 
 
 ```
@@ -98,7 +126,7 @@ HTML('''<object data=\"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/
 
 
 <div markdown="0" class="output output_html">
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="600" height="200"</object>
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"></object>
 </div>
 
 
@@ -109,23 +137,22 @@ HTML('''<object data=\"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
-%%html
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
-        width="600"
-        height="200">
-</object>
+# html hide tag
+HTML('''<object data=\"https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html\" width=\"800\" height=\"500\"</object>''')
+
+
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
 
+
+
 <div markdown="0" class="output output_html">
-<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
-        width="600"
-        height="200">
-</object>
+<object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" width="800" height="500"</object>
 </div>
+
 
 </div>
 </div>
