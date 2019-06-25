@@ -20,7 +20,7 @@ title: Pontificating Panda
 author: David J McNay
 email: djmcnay@gmail.com
 description: >-
-    Originally designed as a static chartbook
+    Originally a static chartbook to explore what level of Financial market charting was possible using only Open Source data.
 
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ url: YOUR URL              # the base hostname & protocol for your site, e.g. ht
 
 # Notebook content settings
 use_hide_code_button: true     # If True, a small button appears to the right of each cell that lets you hide its contents.
-hide_code_text: "hide_code"
+hide_code_text: "hidecode"
 
 # Sidebar settings
 show_sidebar: true                    # Show the sidebar. Only set to false if your only wish to host a single page.

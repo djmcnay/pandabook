@@ -62,7 +62,7 @@
     not_numbered: true
     
 - title: Fixed Income
-  url: /features/placeholder
+  url: /features/fixed_income
   not_numbered: true
   expand_sections: false
   sections:
