@@ -141,7 +141,7 @@ Please hide this code
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-print('This is really annoying')
+print('This is really annoying...')
 ```
 </div>
 
@@ -149,7 +149,7 @@ print('This is really annoying')
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-This is really annoying
+This is really annoying...
 ```
 </div>
 </div>
