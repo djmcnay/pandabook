@@ -31,8 +31,8 @@ $ FV_{x} = \beta_{x,0}
 ```python
 %%html
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
-        width="650"
-        height="500">
+        width="625"
+        height="525">
 </object>
 ```
 </div>
@@ -42,8 +42,8 @@ $ FV_{x} = \beta_{x,0}
 
 <div markdown="0" class="output output_html">
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/pokemon.html" 
-        width="650"
-        height="500">
+        width="625"
+        height="525">
 </object>
 </div>
 
