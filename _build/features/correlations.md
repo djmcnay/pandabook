@@ -14,6 +14,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Correlations
 
+NB/ Observations are coming from the AlphaVantage close price, where the adjusted close maybe more appropropriate for a total return. Shouldn't make a meaningful difference here as correlations won't be materially impacted over 1week.
+
 ## Principal Drivers Index
 The PDI takes 10 US listed ETFs and generates a timeseries of the variance explained by the principal eigenvector; correlations from 26wk rolling returns.
 
