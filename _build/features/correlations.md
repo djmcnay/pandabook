@@ -43,12 +43,12 @@ The PDI takes 10 US listed ETFs and generates a timeseries of the variance expla
 </div>
 
 ## Duo-Dendrogram
-Dendrograms here use a wider universe of US listed ETFs.
+We present two dendrograms which both use the same universe of US listed ETFs, but over different time horizons. Construction uses the [SciPy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html) and defaults to Euclidean distance, although we can run other clustering methods. We get a sense of how well clustering performs using the Cophenetic Correlation Coefficient,  c . This correlates actual pairwise distances of all samples to those implied by the hierarchical clustering. The closer  c  is to 1, the better the clustering preserves the original distances. Generally  c  > 0.7 is consistered a good cluster fit.
 
-![]("https://djmcnay.github.io/pandachartstore/matplotlib/duodenrogram_etfs.png")
+A useful [blog](https://silburt.github.io/blog/stock_correlation.html)
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
+<div class="input_area hidecode" markdown="1">
 ```python
 %%html
 <object data="https://djmcnay.github.io/pandachartstore/matplotlib/duodenrogram_etfs.png" 
