@@ -49,7 +49,7 @@
   expand_sections: false
   sections:
   - title: Correlations
-    url: /features/placeholder
+    url: /features/correlations
     not_numbered: true
     
 - title: Macro
