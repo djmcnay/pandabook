@@ -17,10 +17,10 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 NB/ Observations are coming from the AlphaVantage close price, where the adjusted close maybe more appropropriate for a total return. Shouldn't make a meaningful difference here as correlations won't be materially impacted over 1week.
 
 ## Principal Drivers Index
-The PDI takes 10 US listed ETFs and generates a timeseries of the variance explained by the principal eigenvector; correlations from 26wk rolling returns.
+The PDI takes 10 US listed ETFs and generates a timeseries of the variance explained by the principal eigenvector; correlations from 26wk rolling returns. Sebastian Raschka has written two very useful blog pieces [here](https://plot.ly/ipython-notebooks/principal-component-analysis/) and [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html) which cover PCA with Python
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area hidecode" markdown="1">
+<div class="input_area" markdown="1">
 ```python
 %%html
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/principaldrivers.html" 
@@ -50,7 +50,7 @@ We present two dendrograms which both use the same universe of US listed ETFs, b
 A useful [blog](https://silburt.github.io/blog/stock_correlation.html)
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area hidecode" markdown="1">
+<div class="input_area" markdown="1">
 ```python
 %%html
 <object data="https://djmcnay.github.io/pandachartstore/matplotlib/duodenrogram_etfs.png" 
