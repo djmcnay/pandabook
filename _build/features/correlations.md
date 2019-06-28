@@ -20,7 +20,7 @@ NB/ Observations are coming from the AlphaVantage close price, where the adjuste
 The PDI takes 10 US listed ETFs and generates a timeseries of the variance explained by the principal eigenvector; correlations from 26wk rolling returns. Sebastian Raschka has written two very useful blog pieces [here](https://plot.ly/ipython-notebooks/principal-component-analysis/) and [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html) which cover PCA with Python
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
+<div class="input_area hidecode" markdown="1">
 ```python
 %%html
 <object data="https://djmcnay.github.io/pandachartstore/PlotlyHTMLexJS/principaldrivers.html" 
