@@ -58,7 +58,7 @@
   expand_sections: false
   sections:
   - title: Leading Indicators
-    url: /features/placeholder
+    url: /features/leading_indicators
     not_numbered: true
     
 - title: Fixed Income
